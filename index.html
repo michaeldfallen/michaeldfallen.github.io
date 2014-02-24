@@ -1,0 +1,33 @@
+---
+layout: default
+title: I am Michael Allen
+---
+
+<div id="home">
+  <h1>Projects</h1>
+  <ul class="projects">
+    {% for project in site.data.projects %}
+      <li>
+          <img src="{{site.url}}{{project.icon}}" alt="{{project.name}}">
+          <a href="{{project.url}}">{{ project.name }}</a>
+          <a href="{{project.github}}">Source code on github</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <h1>Blog</h1>
+  <ul class="posts">
+    {% for post in site.posts offset: 0 limit: 3 %}
+      <li>
+          <span>{{ post.date | date_to_string }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+    {% for post in site.posts offset: 3 limit: 7 %}
+      <li>
+          <span>{{ post.date | date_to_string }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

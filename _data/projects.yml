@@ -1,0 +1,4 @@
+- name: NI Rail
+  icon: assets/nirail.png
+  url: https://play.google.com/store/apps/details?id=AppZappy.NIRailAndBus
+  github: https://github.com/appzappy/nirail

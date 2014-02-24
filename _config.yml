@@ -1,0 +1,4 @@
+name: I am Michael Allen
+markdown: redcarpet
+pygments: true
+permalink: /:title
