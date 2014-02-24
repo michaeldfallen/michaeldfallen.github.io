@@ -11,19 +11,13 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <!-- Responsive images -->
+        <script src="/js/picturefill.js"></script>
 
     </head>
     <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-        </div>
+        {% include header.html %}
+        {{ content }}
         {% include footer.html %}
     </body>
 </html>

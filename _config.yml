@@ -1,4 +1,4 @@
 name: I am Michael Allen
-markdown: redcarpet
+markdown: rdiscount
 pygments: true
 permalink: /:title

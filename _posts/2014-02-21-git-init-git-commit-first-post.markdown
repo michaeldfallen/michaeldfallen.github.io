@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "git init; git commit -m \"first post\""
-date:   2014-02-21 18:01:12
+title: "git init; git commit -m \"first post\""
+date: 2014-02-21 18:01:12
+catagories: "hello-world"
+lead_img: "/assets/rafiki"
+lead_img_alt: "Is this too egotistical or not enough? Maybe."
 ---
 
 So I'm starting a blog. I'm not entirely sure why yet.
