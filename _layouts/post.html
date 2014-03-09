@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
+<article>
 <header>
 	<h1>{{ page.title }}</h1>
 	<p class="meta">{{ page.date | date_to_string }}</p>
 </header>
-<article>
 {{ content }}
 </article>
 <nav>
@@ -39,5 +39,8 @@ layout: default
             </a></li>
       {% endif %}
       </ul>
-    </div>
+    </section>
+    <section>
+      {% include flair.html %}
+    </section>
 </nav>

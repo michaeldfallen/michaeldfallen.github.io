@@ -3,8 +3,6 @@ layout: post
 title: "Lorem Markdownum"
 date: 2014-02-21 18:01:12
 catagories: ["lorem-markdownum", "foo", "bar"]
-lead_img: "/assets/rafiki"
-lead_img_alt: "Is this too egotistical or not enough? Maybe."
 ---
 
 Lorem markdownum aliter virga; vel exiguam sanguineis, fronte siquis, Panaque
@@ -18,9 +16,7 @@ Clyton dubiis fruetur, honorem egimus longa; [et](http://imgur.com/).
 - Certe ero posset neci quam pectore illa
 - Stirpe Antissa si formae tumor
 
- <!--more-->
-
-Pennis ebur nervi quaque viximus lotos, stagnare ebibit omnes volucres excidit
+<!--more-->Pennis ebur nervi quaque viximus lotos, stagnare ebibit omnes volucres excidit
 occupat, terra compescuit et. Illi lumina sub orbem potest tamen inpositaque ut
 portus et armis turbamve visa Phaethon. Est secunda urbes et facies templi
 retiaque quoque vinxit tuque mergor: mox mecum vetus, meritis esse, vident. Urbe

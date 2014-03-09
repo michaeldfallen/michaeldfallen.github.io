@@ -1,20 +1,20 @@
 ---
 layout: default
-title: I am Michael Allen
-lead_img: "/assets/rafiki"
+title: Michael Allen
 ---
-    {% for post in site.posts offset: 0 limit: 3 %}
-    <header>
-	<h1>{{ post.title }}</h1>
-	<p class="meta">{{ post.date | date_to_string }}</p>
+<article>
+<header class="frontpage">
+  {% include flair.html %}
 </header>
-      <article>
-          {{ post.excerpt }}
-      </article>
-    {% endfor %}
-    {% for post in site.posts offset: 3 limit: 7 %}
-      <article>
-          <span>{{ post.date | date_to_string }}</span>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-      </article>
-    {% endfor %}
+{% for post in site.posts limit: 10 %}
+<hr />
+<article class="frontpage">
+    <header>
+        <h1><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="meta">{{ post.date | date_to_string }}</p>
+    </header>
+    {{ post.excerpt }}
+    <p><a href="{{ BASE_PATH }}{{ post.url }}">read more &raquo;</a></p>
+</article>
+{% endfor %}
+</article>

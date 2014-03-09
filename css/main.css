@@ -83,11 +83,23 @@ article {
   background: #fff;
 }
 
+article.frontpage {
+  border-top: none;
+}
+
+article > hr {
+  margin: 1em 10% 1em 10%;
+  background-color: #333;
+  height: 1px;
+  border: 0;
+}
+
 article > p,
 article > ul,
 article > ol,
 article > div,
 article > blockquote,
+article > header,
 main > header {
   text-shadow: 0px 1px 1px #fff;
   display: block;
@@ -100,6 +112,19 @@ main > header {
 	overflow-y: hidden;
 	position: relative;
   padding: 3em 10% 3em 10%;
+}
+
+section.gravatar {
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+  padding-right:4%;
+}
+
+section.contact {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
 }
 
 section.lead-img {
@@ -175,11 +200,16 @@ article h4 {font-size: 1.3em;}
 article h5 {font-size: 1.2em;}
 article h6 {font-size: 1.1em;}
 
+article .meta {
+  font-size: 0.9em;
+  color: #95a5a6;
+}
+
 main nav {
   background-color: #fff;
 }
 
-nav section {
+nav > section {
   border-top: 1px solid #333;
   padding: 2em 10% 2em 10%;
 }
@@ -236,11 +266,12 @@ footer {
 	width: 80%;
 	padding: 2em 10% 2em 10%;
 	background-color: #34495e;
-	text-align: center;
+  font-size: 0.8em;
+  text-align: center;
 	color: #ecf0f1;
 }
 
-footer img {
+section.gravatar img {
 	border: 0.3em solid #333;
 	border-radius: 50%;
 	width: 200px;

@@ -9,7 +9,7 @@ lead_img_alt: "Is this too egotistical or not enough? Maybe."
 
 Et miscet excedere contagia gravibus sapientius iterque
 
-> Istis ergo ignotae solidas
+> Istis ergo ignotae solidas<!--more-->
 
 Lorem markdownum aliter virga; vel exiguam sanguineis, fronte siquis, Panaque
 illis insilit quantus parentis et miles. Secabatur vires, me translucet orbes
