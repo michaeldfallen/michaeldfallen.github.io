@@ -3,3 +3,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:title
 extensions: [fenced_code_blocks]
+excerpt_separator: <!--more-->
