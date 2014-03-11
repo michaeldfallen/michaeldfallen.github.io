@@ -1,0 +1,71 @@
+@media screen and (max-width: 28em) {
+  html {
+    font-size:16px;
+  }
+
+  article > p,
+  article > ul,
+  article > ol,
+  article > div,
+  article > blockquote,
+  article > header,
+  main > header {
+    padding: 16px;
+  }
+
+  article > h1,
+  article > h2,
+  article > h3,
+  article > h4,
+  article > h5,
+  article > h6 {
+    padding: 0 16px;
+    margin: 16px 0;
+  }
+
+  nav > section {
+    padding: 16px;
+  }
+
+  section.pagination li {
+    min-width: 160px;
+  }
+
+  section.gravatar,
+  section.contact {
+    display: block;
+    padding: 0;
+    width: initial;
+    text-align: center;
+  }
+
+  body > header {
+    padding: 0 16px 0 16px;
+  }
+  
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  
+}
+
+@media screen and (min-width: 60em) {
+  body {
+    width: 60em;
+    margin: 0 auto;
+  }
+  header {
+    width: 60em;
+  }
+  article {
+    width:70%;
+    display:inline-block;
+    float:right;
+  }
+  nav {
+    width:30%;
+  }
+  footer {
+    clear: both;
+  }
+}
