@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "Lorem Markdownum"
+title: "Lorem Markdownum 3"
 date: 2014-02-21 18:01:12
 catagories: ["lorem-markdownum", "foo", "bar"]
+lead_img: "/assets/rafiki"
+lead_img_alt: "Is this too egotistical or not enough? Maybe."
 ---
+
+Et miscet excedere contagia gravibus sapientius iterque
+
+> Istis ergo ignotae solidas<!--more-->
 
 Lorem markdownum aliter virga; vel exiguam sanguineis, fronte siquis, Panaque
 illis insilit quantus parentis et miles. Secabatur vires, me translucet orbes
@@ -16,7 +22,7 @@ Clyton dubiis fruetur, honorem egimus longa; [et](http://imgur.com/).
 - Certe ero posset neci quam pectore illa
 - Stirpe Antissa si formae tumor
 
-<!--more-->Pennis ebur nervi quaque viximus lotos, stagnare ebibit omnes volucres excidit
+Pennis ebur nervi quaque viximus lotos, stagnare ebibit omnes volucres excidit
 occupat, terra compescuit et. Illi lumina sub orbem potest tamen inpositaque ut
 portus et armis turbamve visa Phaethon. Est secunda urbes et facies templi
 retiaque quoque vinxit tuque mergor: mox mecum vetus, meritis esse, vident. Urbe

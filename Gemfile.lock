@@ -1,0 +1,9 @@
+GEM
+  specs:
+    rdiscount (2.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rdiscount

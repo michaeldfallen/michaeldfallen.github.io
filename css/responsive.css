@@ -1,0 +1,105 @@
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+  pre {
+    font-size: 13px;
+    letter-spacing: 0.1px;
+  }
+
+  article > p,
+  article > ul,
+  article > ol,
+  article > div,
+  article > blockquote,
+  article > header,
+  article > h1,
+  article > h2,
+  article > h3,
+  article > h4,
+  article > h5,
+  article > h6,
+  main > header {
+    text-shadow: 0px 1px 1px #fff;
+    display: block;
+    padding: 8px;
+  }
+
+  body > header h1 {
+    padding: 0 8px;
+  }
+
+  body > header nav {
+    padding: 8px;
+  }
+
+  section.gravatar,
+  section.contact {
+    display: block;
+    padding: 0;
+    width: initial;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  pre {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+  }
+  html {
+    font-size: 17px;
+  }
+  
+  section.gravatar,
+  section.contact {
+    display: block;
+    padding: 0;
+    width: initial;
+    text-align: center;
+  }
+}  
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  pre {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+  }
+  html {
+    font-size: 17px;
+  }
+}  
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+
+  pre {
+    font-size: 17px;
+    letter-spacing: 0.3px;
+  }
+  html {
+    font-size: 18px;
+  }
+  body > header > hgroup,
+  main > article,
+  main > nav {
+    margin: 0 auto;
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  pre {
+    font-size: 17px;
+    letter-spacing: 0.3px;
+  }
+  html {
+    font-size: 18px;
+  }
+  body > header > hgroup,
+  main > article,
+  main > nav {
+    margin: 0 auto;
+    width: 650px;
+  }
+}

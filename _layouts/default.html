@@ -7,17 +7,20 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/monokai.css">
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/responsive.css">
         <!-- Responsive images -->
         <script src="/js/picturefill.js"></script>
 
     </head>
     <body>
         {% include header.html %}
-        {{ content }}
+        <main>
+            {{ content }}
+        </main>
         {% include footer.html %}
     </body>
 </html>

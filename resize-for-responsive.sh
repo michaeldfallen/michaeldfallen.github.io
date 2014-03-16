@@ -32,7 +32,7 @@ resize() {
     usage "no input file provided"
   fi
 
-  convert $image -resize "${size}x${size}" "$filename@200.$ext"
+  convert $image -resize "${size}x${size}" "$filename@$size.$ext"
   echo "resized $image to ${size}px x ${size}px at $filename@$size.$ext"
 }
 
