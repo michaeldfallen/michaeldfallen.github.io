@@ -35,7 +35,7 @@ html {
   font-weight: 300;
 	font-size: 19px;
 	line-height: 1.5;
-	letter-spacing: 0.8px;
+	letter-spacing: 0.02em;
 }
 
 body {
@@ -45,14 +45,12 @@ body {
 }
 
 body > header {
-  padding-right: 10%;
-  padding-left: 10%;
-	margin: 0 auto;
   background-color: #34495e;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-body > header > h1 {
+body > header h1 {
+  padding: 0 16px;
   font-weight: 500;
 	font-size: 2em;
   display: inline-block;
@@ -63,9 +61,9 @@ body > header a {
   text-decoration: none;
 }
 
-body > header > nav {
+body > header nav {
   line-height: 2em;
-  padding: 0.5em 0 0.5em 0;
+  padding: 8px 16px;
   display: inline-block;
   float: right;
 }
@@ -78,9 +76,8 @@ h5 {font-size: 1.5em;}
 h6 {font-size: 1.4em;}
 
 article {
-	border-top: 0.5em solid #2980b9;
-  padding: 2em 0;
-  background: #fff;
+	border-top: 8px solid #2980b9;
+  padding: 16px 0;
 }
 
 article.frontpage {
@@ -88,7 +85,6 @@ article.frontpage {
 }
 
 article > hr {
-  margin: 1em 10% 1em 10%;
   background-color: #333;
   height: 1px;
   border: 0;
@@ -100,25 +96,27 @@ article > ol,
 article > div,
 article > blockquote,
 article > header,
+article > h1,
+article > h2,
+article > h3,
+article > h4,
+article > h5,
+article > h6,
 main > header {
-  text-shadow: 0px 1px 1px #fff;
+  text-shadow: 0px 1px 1px #eee;
   display: block;
-  padding: 1em 10% 1em 10%;
+  padding: 16px;
 }
 
-main > header {
-  color: #ecf0f1;
-  text-shadow: 0px 1px 2px #000;
-	overflow-y: hidden;
-	position: relative;
-  padding: 3em 10% 3em 10%;
+main {
+  background: #fefefe;
 }
 
 section.gravatar {
   display: inline-block;
   width: 45%;
   text-align: right;
-  padding-right:4%;
+  padding-right:16px;
 }
 
 section.contact {
@@ -134,63 +132,43 @@ section.lead-img {
 }
 
 article pre {
+  line-height: 1.4;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  overflow: scroll;
+  overflow: hidden;
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
 }
 
 article ul {
-    list-style: none;
+  list-style: none;
 }
 
 article li:before {
   content: "-";
   display: block;
   float: left;
-  padding-left: 0.5em;
-  width: 1em;
+  padding-left: 8px;
+  width: 16px;
   color: #7f8c8d;
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace; 
 }
 
 article blockquote {
   position: relative;
+  padding: 8px 16px;
   font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
-  background-color: #bdc3c7;
+  background-color: #d9dcde;
 }
 
 article blockquote:after {
   content: "*/";
-  display: block;
-  position: absolute;
-  bottom: 0;
   text-shadow: none;
-  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
   color: #95a5a6;
 }
 
 article blockquote:before {
   content: "/*";
-  display: block;
-  position: absolute;
-  top: 0;
   text-shadow: none;
-  font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
   color: #95a5a6;
-}
-
-article > h1,
-article > h2,
-article > h3,
-article > h4,
-article > h5,
-article > h6 {
-  display: block;
-  padding: 0 10% 0 10%;
-  margin: 1em 0 1em 0;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  background-color: #34495e;
-  color: #ecf0f1;
 }
 
 article h1 {font-size: 1.6em;}
@@ -205,13 +183,9 @@ article .meta {
   color: #95a5a6;
 }
 
-main nav {
-  background-color: #fff;
-}
-
 nav > section {
   border-top: 1px solid #333;
-  padding: 2em 10% 2em 10%;
+  padding: 32px 16px;
 }
 
 section.tags ul {
@@ -262,9 +236,9 @@ section.pagination span {
 }
 
 footer {
-	border-top: 0.5em solid #2980b9;
-	width: 80%;
-	padding: 2em 10% 2em 10%;
+	border-top: 8px solid #2980b9;
+	width: 100%;
+	padding: 32px 0;
 	background-color: #34495e;
   font-size: 0.8em;
   text-align: center;
@@ -272,7 +246,7 @@ footer {
 }
 
 section.gravatar img {
-	border: 0.3em solid #333;
+	border: 4px solid #333;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
