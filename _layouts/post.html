@@ -9,6 +9,7 @@ layout: default
 {{ content }}
 </article>
 <nav>
+  {% if page.previous or page.next %}
     <section class="pagination">
       <ul>
       {% if page.previous %}
@@ -32,6 +33,7 @@ layout: default
       {% endif %}
       </ul>
     </section>
+  {% endif %}
     <section>
       {% include flair.html %}
     </section>
