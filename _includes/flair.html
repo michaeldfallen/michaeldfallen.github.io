@@ -1,14 +1,14 @@
 <section class="gravatar">
-    <img src="{{site.data.urls.gravatar}}" alt="My Gravatar">
+    <img src="https://s.gravatar.com/avatar/{{site.author.gravatar}}?size=200" alt="My Gravatar">
 </section>
 <section class="contact">
-  <h2>Michael Allen</h2>
+  <h2>{{ site.author.name }}</h2>
   <p>Senior Software Engineer at <a href="http://www.kainos.com">Kainos</a></p>
-  <p>michael@appzappy.co.uk</p>
+  <p>{{ site.author.email }}</p>
   <p>
-    <a href="https://github.com/michaeldfallen">github.com/michaeldfallen</a>
+    <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
   </p>
   <p>
-    <a href="https://twitter.com/michaeldfallen">twitter.com/michaeldfallen</a>
+    <a href="https://twitter.com/{{ site.author.twitter }}">twitter.com/{{ site.author.twitter }}</a>
   </p>
 </section>

@@ -4,3 +4,16 @@ pygments: true
 permalink: /:title
 extensions: [fenced_code_blocks]
 excerpt_separator: <!--more-->
+
+#Rss parameters
+production_url: http://michaelallen.io
+rss_path: /rss.xml
+atom_path: /atom.xml
+
+title: I am Michael Allen
+author:
+  name: Michael Allen
+  email: michael@appzappy.co.uk
+  github: michaeldfallen
+  twitter: michaeldfallen
+  gravatar: 2c2b5e7c4291fa9b71f00a1ec6b74275

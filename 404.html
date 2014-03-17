@@ -1,0 +1,19 @@
+---
+layout: default
+title: 404
+---
+<article>
+<h1>Page not found</h1>
+
+<p><a href="/">Return to the frontpage</a></p>
+<p>Or perhaps you were looking for one of my recent posts:</p>
+<ul>
+{% for post in site.posts limit: 10 %}
+  <li>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    <span class="meta">{{ post.date | date_to_string }}</span>
+  </li>
+{% endfor %}
+</ul>
+
+</article>

@@ -9,14 +9,6 @@ layout: default
 {{ content }}
 </article>
 <nav>
-  {% if page.catagories %}
-    <section class="tags">
-        Tags:
-        <ul>
-          {% for tag in page.catagories %}<li><a href="#">#{{tag}}</a></li>{% endfor %}
-        </ul>
-    </section>
-  {% endif %}
     <section class="pagination">
       <ul>
       {% if page.previous %}
