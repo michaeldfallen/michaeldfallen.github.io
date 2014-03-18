@@ -68,12 +68,21 @@ body > header nav {
   float: right;
 }
 
-h1 {font-size: 1.9em;}
-h2 {font-size: 1.8em;}
-h3 {font-size: 1.7em;}
-h4 {font-size: 1.6em;}
-h5 {font-size: 1.5em;}
-h6 {font-size: 1.4em;}
+h1 {font-size: 1.9em; font-weight:600;}
+h2 {font-size: 1.8em; font-weight:600;}
+h3 {font-size: 1.7em; font-weight:600;}
+h4 {font-size: 1.6em; font-weight:600;}
+h5 {font-size: 1.5em; font-weight:600;}
+h6 {font-size: 1.4em; font-weight:600;}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
+}
 
 article {
 	border-top: 8px solid #2980b9;
