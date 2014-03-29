@@ -1,0 +1,80 @@
+---
+layout: post
+title: "Why I want to write"
+date: 2014-03-29 15:25:00
+---
+
+The “Hello, World!” post of a new blog is a difficult one to get right,
+hopefully I bypassed that one last week with my [first post].
+
+Before I start in earnest though I thought I should explain why I want to write.
+It'll be interesting to, after a few months, write a follow up to this and see
+what I have actually got from writing.
+
+  [first post]: {% post_url 2014-03-17-git-init-git-commit-first-post %}
+<!--more-->
+
+###A better way to learn
+
+[Cunningham's law] says the best way to get the right answer isn't to ask the
+question but to propose the wrong answer. Then some smart aleck will come along
+and, incensed at your wrongness, give you the correct answer.
+
+So it stands to reason that whatever I write about, even if I'm not completely
+right about something, by Cunningham's Law, the [kind people of the internet]
+will correct me, and I will have learned.
+
+###Make things open, it makes them better
+
+My time working with [GDS] on the [Register to Vote] project has convinced me of
+the benefits of [Design Principle 10].
+
+I have ran into many problems that have been solved by reading the source
+code or writing fixes to a project (Play Framework for all of it's
+positives is the bane of my life) Issues I could never have solved without those
+projects being open source.
+
+So writing is like open sourcing your thoughts. By allowing others to read them,
+build on them, improve them, and rework them it allows them to be better.
+
+This is a big reason why I'm using the Creative Commons Attribution-ShareAlike
+license and also why I'm hosting this blog on [github].
+
+###Rubber duck my thoughts
+
+[Rubber ducking] is explaining your problem to yourself, and in the process
+straightening out your thoughts, until the solution comes to light.
+
+By writing down my thoughts for a reader I can sort them out much better than if
+I'd just kept them locked up in my head. Which should make me better at
+articulating my ideas in the future.
+
+###I could help someone
+
+I have this thought that if I've figured something out, then obviously others
+could too. Meaning I often look back on things I learn think they are
+insignificant, so surely writing about it is condescending to my reader.
+
+This is the main reason I haven't started writing until now, as I felt I didn't
+have anything worthwhile to contribute.
+
+![Double decker couch]
+
+I've taken to starting a new document in my notes-of-choice-app, currently
+Google Drive, each time someone says “Oh, thats interesting. How did you do
+that?”. Then every now and then I pop in to the folder and write a few thoughts
+on each.
+
+Building that folder of evidence is how I've gotten out of this rut. Now I have
+a fair number of topics that others have told me are interesting.
+
+So it's time to write.
+
+  [Double decker couch]: http://i.imgur.com/ulT1lxq.png
+  [kind people of the internet]: http://xkcd.com/386/ "XKCD: Duty Calls"
+  [Cunningham's law]: http://meta.wikimedia.org/wiki/Cunningham%27s_Law
+  [GDS]: https://gds.blog.gov.uk/
+  [Register to Vote]: https://www.gov.uk/transformation/register-to-vote
+  [Design Principle 10]: https://www.gov.uk/design-principles#tenth
+  [github]: http://github.com/michaeldfallen/michaeldfallen.github.io
+  [Rubber ducking]: http://en.wikipedia.org/wiki/Rubber_duck_debugging 
