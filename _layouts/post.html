@@ -9,6 +9,9 @@ layout: default
 {{ content }}
 </article>
 <nav>
+    <section class="flair">
+      {% include flair.html %}
+    </section>
   {% if page.previous or page.next %}
     <section class="pagination">
       <ul>
@@ -34,8 +37,8 @@ layout: default
       </ul>
     </section>
   {% endif %}
-    <section class="flair">
-      {% include flair.html %}
-    </section>
 </nav>
+<article class="comments">
+  {% include disqus.html %}
+</article>
 <div class="clearfix"></div>
