@@ -1,4 +1,9 @@
 @media screen and (max-width: 400px) {
+  
+  article.content {
+    border-top: none;
+  }
+
   html {
     font-size: 14px;
   }
@@ -26,6 +31,10 @@
     padding: 8px;
   }
 
+  section.comments {
+    padding: 8px;
+  }
+
   body > header h1 {
     padding: 0 8px;
   }
@@ -34,16 +43,24 @@
     padding: 8px;
   }
 
+  
+  section.gravatar img {
+    width: 120px;
+    height: 120px;
+  }
+
   section.gravatar,
   section.contact {
-    display: block;
-    padding: 0;
-    width: initial;
-    text-align: center;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 550px) {
+
+  article.content {
+    border-top: none;
+  }
+
   article pre {
     font-size: 14px;
     letter-spacing: 0px;
@@ -53,19 +70,28 @@
   }
   body > header > hgroup,
   main > article,
-  main > nav {
+  main > nav,
+  section.comments {
     margin: 0 1em;
-  } 
+  }
+
+  section.gravatar img {
+    width: 150px;
+    height: 150px;
+  }
+
   section.gravatar,
   section.contact {
-    display: block;
-    padding: 0;
-    width: initial;
-    text-align: center;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 550px) and (max-width: 720px) {
+
+  article.content {
+    border-top: none;
+  }
+
   article pre {
     font-size: 14px;
     letter-spacing: 0px;
@@ -75,12 +101,17 @@
   }
   body > header > hgroup,
   main > article,
-  main > nav {
+  main > nav,
+  section.comments {
     margin: 0 5%;
   }
 }
 
 @media screen and (min-width: 720px) and (max-width: 1000px) {
+
+  article.content {
+    border-top: none;
+  }
 
   article pre {
     font-size: 15px;
@@ -90,13 +121,20 @@
   }
   body > header > hgroup,
   main > article,
-  main > nav {
+  main > nav,
+  section.comments {
     margin: 0 auto;
     width: 680px;
   }
 }
 
 @media screen and (min-width: 1000px) {
+
+  article.flair {
+    width: 250px;
+    float: left;
+    margin: 0;
+  }
 
   article pre {
     font-size: 15px;
@@ -108,7 +146,8 @@
     background: #fefefe;
   }
 
-  main > article {
+  main > article,
+  section.comments {
     margin-left: 250px;
     width: 700px;
   }
@@ -125,15 +164,8 @@
     text-align: center;
   }
 
-  section.flair {
-    position: absolute;
-    top:0;
-  }
-
   section.pagination {
     border-top: 1px solid #333;
-    position: relative;
-    top: 400px;
   }
 
   section.pagination li {
