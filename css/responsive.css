@@ -116,6 +116,14 @@
   article pre {
     font-size: 15px;
   }
+  h1, h2, h3, h4, h5 {
+    clear: right;
+  }
+  article p img {
+    width: 40%;
+    padding-left: 5%;
+    float: right;
+  }
   html {
     font-size: 18px;
   }
@@ -138,6 +146,14 @@
 
   article pre {
     font-size: 15px;
+  }
+  h1, h2, h3, h4, h5 {
+    clear: right;
+  }
+  article p img {
+    width: 40%;
+    padding-left: 5%;
+    float: right;
   }
   html {
     font-size: 18px;
