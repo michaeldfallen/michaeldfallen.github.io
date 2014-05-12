@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unconference"
-date: 2014-05-09 12:17:10
+date: 2014-05-13 00:34:15
 ---
 
 A few weeks ago during Kainos kickoff event I ran a
