@@ -7,6 +7,13 @@ layout: default
 	<p class="meta">{{ page.date | date_to_string }}</p>
 </header>
 {{ content }}
+{% if page.external %}
+<p>
+  <a href="{{ page.external_link }}">
+    read more {{page.external}} &raquo;
+  </a>
+</p>
+{% endif %}
 </article>
 <nav>
     <section class="flair">
