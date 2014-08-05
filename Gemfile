@@ -1,1 +1,1 @@
-gem "rdiscount"
+gem "github-pages"
