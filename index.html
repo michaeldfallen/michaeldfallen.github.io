@@ -14,6 +14,14 @@ title: Michael Allen
           <p class="meta">{{ post.date | date_to_string }}</p>
       </header>
       {{ post.excerpt }}
+      {% if post.external %}
+      <p>
+        <a href="{{ post.external_link }}">
+          read more {{post.external}} &raquo;
+        </a>
+      </p>
+      {% else %}
       <p><a href="{{ post.url }}">read more &raquo;</a></p>
+      {% endif %}
   </article>
 {% endfor %}
