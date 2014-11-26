@@ -288,3 +288,27 @@ a:hover {
 	height: 0;
 	width: 0;
 }
+
+button {
+  background-color: #2980b9;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding: 0.35em 0.5em 0.15em 0.5em;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 2px 0 #103249;
+  -moz-box-shadow: 0 2px 0 #103249;
+  box-shadow: 0 2px 0 #103249;
+  font-size: 1em;
+  line-height: 1.25;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  color: #fff;
+  color: white;
+  padding: 0.3em 0.6em 0.2em 0.6em;
+}
