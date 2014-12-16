@@ -119,6 +119,29 @@ The emphasis is on you interacting with my instance of the thing.
 
 ----
 
+##Focus on the Needs
+
+It should be boring to hear by now but everything you do in Agile should focus
+on the Needs. For a while I've thought that sometimes we focus too often on the
+users that sit in front of web browsers. Obviously they are important, the most
+important for a citizen facing service, but they aren't necessarily the only
+users.
+
+When building a reusable component, or shared service, or tool for others to
+build on top of, you'll have another user. The Developer sitting in front of
+code trying to use your tool, or the Architect trying to understand your
+services processes are users too. You need understanding of their context to
+be able to build anything that will be useful to them.
+
+Which type of reuse you use depends heavily on your user and business needs.
+Perhaps you are interested in maintaining centralised control of a resource;
+then sharing might be most appropriate. Or you want to reduce implementation
+cost of a common piece of work; then reuse might make most sense.
+
+When someone demands that something be a certain type of "reusable" ask them
+why.
+
+
 ##Wrapping up
 
 So as I see it there are 3 things people tend to mean when they say reuse. We
