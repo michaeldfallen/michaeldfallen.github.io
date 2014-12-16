@@ -36,14 +36,14 @@ This is one of the hardest kinds of reuse as it means I need to predict your
 needs, which is very hard on the first attempt.
 
 An example of this would be most desktop applications, like Google Chrome. With
-a few configuration changes, like logging in to my google account, I can reuse
+a few configuration changes, like logging in to my Google account, I can reuse
 the software without having to write it myself.
 
 **Summary** - Where I build something and you take it and make use of it without
 much work needed to customise.
 
 **Suitable language** - Reuse it, deploy it, use it.
-The emphasis is on you doing something with someone elses work.
+The emphasis is on you doing something with someone else's work.
 
 ----
 
@@ -60,7 +60,7 @@ development as the basis of something else. That may be taking pieces of my code
 and using that as the foundation of your own components. Or it may be taking
 entire components and using them in your system.
 
-This is the very foundation of opensource development. You still need to do some
+This is the very foundation of open source development. You still need to do some
 work but it saves a lot of effort. This is the most useful type in my opinion as
 it's the most flexible. And the development world seems to agree as this is how
 many libraries and tools are built.
@@ -87,10 +87,10 @@ The emphasis is on you adding value to my work.
 
 ###Sharing it
 
-Finally I think this is the last type, atleast that I can think of. This is when
+Finally I think this is the last type, at least that I can think of. This is when
 I build a swimming pool because I want to swim to keep fit. I could publish my
 specs and designs and lists of building materials but swimming pools are large
-and expensive. So instead I let you use my swimming pool for your olympics
+and expensive. So instead I let you use my swimming pool for your Olympics
 training, water polo classes, blitsball games, or just to have fun splashing
 around.
 
@@ -152,14 +152,14 @@ for each task.
 much work needed to customise.
 
 *Suitable language* - Reuse it, deploy it, use it.
-The emphasis is on you doing something with someone elses work.
+The emphasis is on you doing something with someone else's work.
 
 
 **Build on top of** - Where I build something then you take it and build
 something else using it.
 
 *Suitable language* - Extend, build from, build on top of, build out of.
-The emphasis is on you adding value to someone elses work.
+The emphasis is on you adding value to someone else's work.
 
 
 **Sharing** - Where I build something and then let you make use of my instance
@@ -168,8 +168,7 @@ of it.
 *Suitable language* - Hook in to, connect to, call to, talk to.
 The emphasis is on you talking to my instance of it.
 
-
-So when someone asks for code to be "reusable" you can point to this and ask
+When someone asks for code to be "reusable" you can point to this and ask
 "yes, but in what sense?".
 
 
