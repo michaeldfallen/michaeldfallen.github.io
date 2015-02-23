@@ -70,7 +70,7 @@ a fair number of topics that others have told me are interesting.
 
 So it's time to write.
 
-  [Double decker couch]: http://i.imgur.com/ulT1lxq.png
+  [Double decker couch]: https://i.imgur.com/ulT1lxq.png
   [kind people of the internet]: http://xkcd.com/386/ "XKCD: Duty Calls"
   [Cunningham's law]: http://meta.wikimedia.org/wiki/Cunningham%27s_Law
   [GDS]: https://gds.blog.gov.uk/

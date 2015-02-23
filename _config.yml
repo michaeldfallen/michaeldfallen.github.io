@@ -6,7 +6,7 @@ extensions: [fenced_code_blocks]
 excerpt_separator: <!--more-->
 
 #Rss parameters
-production_url: http://michaelallen.io
+production_url: https://michaelallen.io
 rss_path: /rss.xml
 atom_path: /atom.xml
 
