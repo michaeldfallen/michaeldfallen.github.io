@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/michaelallen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://michaelallen.io
+  * I am michaelallen (https://keybase.io/michaelallen) on keybase.
+  * I have a public key with fingerprint 7277 F8E2 AFF5 9619 DC72  B6A7 C4AA E08D 367E 0F4A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7277f8e2aff59619dc72b6a7c4aae08d367e0f4a",
+            "host": "keybase.io",
+            "key_id": "c4aae08d367e0f4a",
+            "kid": "010152051a89c197a78eeefb926d37c00044315fe8d02441696c5d2a47c34d404ff60a",
+            "uid": "520484cbd2968cbdb105e7cf1cde8b00",
+            "username": "michaelallen"
+        },
+        "service": {
+            "hostname": "michaelallen.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424970667,
+    "expire_in": 157680000,
+    "prev": "9c77efd752697611699799e415328122353ff7050a795a7297b3d2518875af27",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.7
+Comment: https://keybase.io/crypto
+
+yMIeAnicbZJbSBRRGMd3zYyMrYwSy4dsMi28cM6Zy5mzElEZKFmJCUkpy5mZM7uD
+6+w6u2tKVy2oh26QQWX2UkTgg2ChXckuD1YgGtpDgfQQ3egCZm33OmP15tPH+b7/
+9/vO/+O755vmSfey+xf35L389tH78HZZwlP9YXPXDkGLGC2Cf4dQzyaDadlB5kQd
+y44LfgEjjE2VIWqaMlEgMXSMNIViXaKUAdUQFcyAKVGhUAhFYm4Hx2g0xoqtCM/x
+R8AyeHYKff1kAUAAZQRkSFWiQ4IpVhljpkaQYohYBwBIkghlk6kGQJIEFaLosoGo
+hHVRMiQgmaYCXFxiEsdRkirpmoGIovKgQSAzrJtQN5iqAeAKY8yxaQPj6gZLD1EW
+puEws4VdhQKvNFk6c9fguplC9ddW1InEI3okzIuheDwa87vN8Zaoq97OtMA/TkCz
+bIOvk3c0MSdmRWzBD7lSj1suGEpIIhgoCi4UWHPUcljAchUyVlTuG7hzWBNHEh1j
+ZhpYRgrBCuQ7IJgQJkFZRCpESJRF08RABhQTmWJEsCYaSIaqimVqIiy4zhrtiOBH
+/Js0yJExK2jTeMJhwq47/bWpHm+6J216insQnvSZc/+fSeWSGb9I5fVDs7Mnfu5/
+e3W4b0LOrXifXw6LDg/tTluusbUXqk4/8Myv+V687Pe0htEf5yrKSorWjo+nHipZ
+8Sa/8mSdvegLWd1R9+DAMV9WwaWjw+1vNt7onQjuvZFX0JoVPvr19oJnK2cl8Uh7
+ydjjTze/7Zy3rbG2+si+mrerSt/P2bR1BXp969qr7qXvjrdoa/KLM0tzNgxcOZyS
+mpnsPJu7Pvv4hiv2o3VbMr3J7val9vya/c+rPrflDJbjxc1a1/nc5OVCaJ560TE6
+Vu0bGV04dufEYEtaRmdO8OmTnoHulZ+CfbHM1ryDvvqnI0OlbR29aeUpx3runum6
+GxvPCDmJrH5FyHD+AGaeKNU=
+=J4hD
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/michaelallen
+
+==================================================================
