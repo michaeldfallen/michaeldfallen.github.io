@@ -157,6 +157,10 @@ article pre {
   letter-spacing: -0.4px;
 }
 
+article pre code {
+  color: #eee;
+}
+
 article ul {
   list-style: none;
 }
