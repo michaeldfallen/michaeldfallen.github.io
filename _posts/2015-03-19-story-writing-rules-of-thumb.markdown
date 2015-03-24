@@ -4,6 +4,10 @@ title: "Rules of thumb for writing Agile Stories"
 date: 2015-03-19 19:17:00
 ---
 
+**TLDR:** I'm using these rules of thumb when writing stories for Agile projects
+
+{% include series/story-writing/links.markdown %}
+
 How many times have you read the following:
 
     As a User

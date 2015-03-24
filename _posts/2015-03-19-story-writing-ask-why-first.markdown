@@ -4,6 +4,8 @@ title: "Ask why first"
 date: 2015-03-19 19:38:00
 ---
 
+{% include series/story-writing/header.markdown %}
+
 The first thing we do when writing a story is describe what it’s going to do.
 Usually a short name for the story has been described and we’ve been talking
 about the story for a few minutes (or maybe a few hours) before we decide to
