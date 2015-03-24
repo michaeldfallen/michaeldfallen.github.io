@@ -152,9 +152,13 @@ article pre {
   background-color: #49483e;
   line-height: 1.4;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  overflow-x: scroll;
+  overflow-x: auto;
   font-family: Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
   letter-spacing: -0.4px;
+}
+
+article pre code {
+  color: #eee;
 }
 
 article ul {
