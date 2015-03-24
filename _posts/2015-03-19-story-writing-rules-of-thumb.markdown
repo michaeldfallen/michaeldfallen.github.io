@@ -46,4 +46,4 @@ I might be quite wrong on these. Please call me out on twitter or in the
 comments if you see something you disagree with, it's the only way I will get
 better at this.
 
-{% include series/story-writing.markdown %}
+{% include series/story-writing/links.markdown %}

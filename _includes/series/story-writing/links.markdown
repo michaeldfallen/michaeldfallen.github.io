@@ -1,5 +1,3 @@
-**This post is part of a series of [Rules of thumb for writing Agile Stories]**
-
 - [Rule 1 - Ask why first]
 - Rule 2 - Embed context into your stories
 - Rule 3 - Who-What-Why not Who-What-What

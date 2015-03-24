@@ -40,4 +40,5 @@ You are fundamentally asking "why bother doing this work?". That's quite a mind
 shift from the normal "solve the problem and solve it fast" mentality that I
 normally find myself in.
 
-{% include series/story-writing.markdown %}
+{% include series/story-writing/header.markdown %}
+{% include series/story-writing/links.markdown %}
