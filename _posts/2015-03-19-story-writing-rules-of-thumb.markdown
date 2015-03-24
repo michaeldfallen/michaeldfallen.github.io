@@ -30,10 +30,9 @@ was my first real, in depth, experience in trying to build a backlog of User
 Stories for a team. I gained some bad habits, made a lot of mistakes, and
 learned a lot about writing stories.
 
-So I've built a set of Rules of Thumb I often use when in Story Writing
-workshops to help improve the quality and clarity of the stories we produce. I’m
-not hard and fast on these rules but they do seem to improve the quality of
-stories I write.
+So I've started using a set of Rules of Thumb in Story Writing workshops to help
+improve the quality and clarity of the stories we produce. I’m not hard and fast
+on these rules but they do seem to improve the quality of stories I write.
 
 This stuff is hard. Really hard. So I’m not going to pretend I know what I’m
 talking about, not even that I did the right thing, but having had some time to
