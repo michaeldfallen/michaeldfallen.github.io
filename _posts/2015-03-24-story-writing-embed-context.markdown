@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embed context in your stories"
-date: 2015-03-19 19:38:00
+date: 2015-03-24 12:30:00
 ---
 
 {% include series/story-writing/header.markdown %}
