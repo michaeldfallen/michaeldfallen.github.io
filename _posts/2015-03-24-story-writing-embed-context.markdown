@@ -11,10 +11,9 @@ date: 2015-03-24 12:30:00
 What is the User doing? Why are they here? What is their motivation? Is the
 kettle currently on?
 
-There's a lot of context that “As a User” misses. Yet I saw those three words
-flow out of mine and others mouths without a second thought. Using a Persona
-will help increase the context but by abstracting the context away we can easily
-forget about it.
+There's a lot of context that “As a User” misses. Yet those three words flow out
+of my mouth without a second thought. Using a Persona will help increase the
+context but by abstracting the context away we can easily forget about it.
 
 An example:
 
@@ -25,7 +24,7 @@ An example:
 Why is the User giving us a new address? Who are they? What caused them to come
 to us?
 
-You can probably infer the context that is missing here, but this won’t always
+You can probably infer the context that is missing here, but this won't always
 be the case. If we include the context explicitly we would get:
 
     As a pensioner who has recently moved house
