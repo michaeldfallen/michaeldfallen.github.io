@@ -13,7 +13,7 @@ kettle currently on?
 
 There's a lot of context that “As a User” misses. Yet those three words flow out
 of my mouth without a second thought. Using a Persona will help increase the
-context but by abstracting the context away we can easily forget about it.
+context but then it will be hidden away in the Persona definition.
 
 An example:
 
@@ -37,7 +37,7 @@ This can be especially useful when you have a very complex process and the
 specific need you are trying to document could be confused for being needed in a
 different circumstance.
 
-    As a conveyancer who is waiting for a change on the register
+    As a conveyancer who is waiting for a discharge
     I want to be notified of that change
     So that I can proceed with my case as soon as possible
 
