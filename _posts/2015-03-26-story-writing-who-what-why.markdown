@@ -6,20 +6,42 @@ date: 2015-03-26 10:23:00
 
 {% include series/story-writing/header.markdown %}
 
-A story is formed of three parts. Who is doing something, What they are doing
-and Why they are doing it. A rookie mistake I often found myself making was
+A story is formed of three parts. Who has the need, What is the need and Why do
+they have it.
+
+A rookie mistake I often found myself making was
 confusing the Why and the What so that my stories read like this:
 
     As a User
     I want to do the thing
     so that I have done the thing.
 
-A story like this isn’t useful and usually is hiding something from the team.
-Every time I found myself or someone on the team writing a story like this it
-was because we weren’t being honest with ourselves. The real reason was usually
-because “the thing” wasn’t something anyone in their right mind would want to
-do, but we were forced to do it due to security / red tape / stakeholders (pick
-one).
+A story like this isn’t useful because it doesn't describe the Why. The simple,
+though not strictly correct, guide that I use is:
+
+**If you can make the Why a What then it's not the real reason.**
+
+For example:
+
+    As a case worker
+    I want a list of my open cases
+    so that I can track my cases
+
+This can be written as:
+
+    As a case worker
+    I want to track my cases
+    so that ...
+
+It's not a perfect guide but it can be useful for noticing when a story isn't
+capturing the real reason.
+
+##Dishonest Stories
+
+Sometimes a story like this will be hiding something from the team. The real
+reason was usually because “the thing” wasn’t something anyone in their right
+mind would want to do, but we were forced to do it due to security / red tape /
+stakeholders (pick one).
 
 If we had been honest the story would read:
 
@@ -35,13 +57,17 @@ or
     so that this backend business process that we need for auditing purposes has
     the things it needs to do it’s job.
 
-I noticed over time that the typical User Story format didn’t hold for backend
-processes or APIs. Does the user really want this thing? In those cases we
-switched to [Feature Injection] (thanks for the tip, Tim) to more honestly
-capture the purpose behind the story and found it really helped us focus on the
-benefit of the stories.
+Does the user really want this thing?
 
-It wasn’t User facing benefit but there was a benefit to someone, usually
+In these cases we switched to [Feature Injection] (thanks for the tip, Tim) to
+more honestly capture the purpose behind the story and found it really helped us
+focus on the benefit of the stories.
+
+    In order to properly secure the system
+    Security need the User
+    to do the thing
+
+It wasn’t user-facing benefit but there was a benefit to someone, usually
 someone with a budget to worry about or a neck on the line, but that benefit is
 still real and worth understanding.
 
