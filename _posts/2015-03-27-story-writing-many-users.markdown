@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Who-What-Why not Who-What-What"
-date: 2015-03-26 10:23:00
+title: "Many Users of many types"
+date: 2015-03-27 11:23:00
 ---
 
 {% include series/story-writing/header.markdown %}
@@ -31,9 +31,9 @@ provide business value to their company or customer
 These people are often ignored in the consideration of a typical User. Any
 stories written for them often get shoehorned into a more “typical” user need.
 
-As I mentioned in [Rule 3: Who What Why] when you hide the real reason, or in
-this case the real User, you prevent the team from fully understanding the Need
-behind it.
+As I mentioned in [Rule 3 - Who-What-Why not Who-What-What] when you hide the
+real reason, or in this case the real User, you prevent the team from fully
+understanding the Need behind it.
 
 {% include series/story-writing/header.markdown %}
 {% include series/story-writing/links.markdown %}
