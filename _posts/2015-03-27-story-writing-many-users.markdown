@@ -8,7 +8,7 @@ edit_url: "https://github.com/michaeldfallen/michaeldfallen.github.io/commits/ma
 
 {% include series/story-writing/header.markdown %}
 
-There’s a problem with the “As a user...” that never sit right with me. Who is
+There’s a problem with the “As a user...” that never sat right with me. Who is
 the user? What defines a user? I think there's too much focus only on the typical
 user, the person sitting in front of a browser [registering to vote], or
 [viewing their Driving License], etc.
