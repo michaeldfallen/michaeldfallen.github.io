@@ -20,7 +20,8 @@ title: Michael Allen
           read more {{post.external}} &raquo;
         </a>
       </p>
-      {% else %}
+      {% endif %}
+      {% if post.content contains "<!--more-->" %}
       <p><a href="{{ post.url }}">read more &raquo;</a></p>
       {% endif %}
   </article>
