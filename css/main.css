@@ -161,6 +161,10 @@ article pre code {
   color: #eee;
 }
 
+article code {
+  display: inline-block;
+}
+
 article ul {
   list-style: none;
 }
@@ -315,4 +319,10 @@ button {
   color: #fff;
   color: white;
   padding: 0.3em 0.6em 0.2em 0.6em;
+}
+
+div.asciicast {
+  padding: 16px !important;
+  margin: 0 !important;
+  width: 100%;
 }
