@@ -2,14 +2,13 @@
 layout: post
 title: "Introducing Butler"
 date: 2015-04-16 16:48:00
+edit_date: "17/4/2015"
+edit_url: "https://github.com/michaeldfallen/michaeldfallen.github.io/commits/master/_posts/2015-04-16-introducing-butler.markdown"
 ---
 
-I am a supremely lazy person. I joined a python project and had to remember
-really long commands like:
-
-**Run my tests**
-
-    foreman run python test.py all
+I am a supremely lazy person. With the rise of wrappers like `virtualenv`,
+`bundler`, `foreman`, etc, I find the shell commands I need to remember getting
+really long. Things like:
 
 **Run only unit tests**
 
@@ -17,9 +16,14 @@ really long commands like:
 
 **Run the database migrations**
 
-    foreman run python app.py db migrate
+    bundle exec rake db:migrate
 
-I figure someone else should be remembering those for me.
+**Start my java app**
+
+    java -jar target/my-java-app-0.1.5.jar
+
+I figure someone else should be remembering those for me. Ideally I should only
+need to remember `migrate` to migrate the db and `unit` to run the unit tests.
 
 ##Butler
 
@@ -82,3 +86,5 @@ long confusing commands.
 One other thing I've noticed is that the `butlerfile` makes for useful
 documentation. If anyone asks "How do you run the tests?" I can look in that
 projects `butlerfile` and show them.
+
+{% include edited.markdown %}
