@@ -324,5 +324,8 @@ button {
 div.asciicast {
   padding: 16px !important;
   margin: 0 !important;
+}
+
+.asciicast iframe {
   width: 100%;
 }
