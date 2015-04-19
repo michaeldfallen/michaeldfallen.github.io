@@ -32,9 +32,7 @@ need to make while working.
 
 The code can be found on [github](https://github.com/michaeldfallen/butler).
 
-###Demo
-
-<script type="text/javascript" src="https://asciinema.org/a/18812.js" id="asciicast-18812" async data-loop="true" data-autoplay="true"></script>
+<script type="text/javascript" src="https://asciinema.org/a/18916.js" id="asciicast-18916" async data-loop="true" data-autoplay="true"></script>
 
 ###How to use Butler
 
