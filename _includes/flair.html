@@ -1,17 +1,23 @@
 <section class="gravatar">
-    <img src="https://s.gravatar.com/avatar/{{site.author.gravatar}}?size=200" alt="My Gravatar">
+    <img src="https://s.gravatar.com/avatar/{{site.author.gravatar}}?size=200" alt="My Gravatar" rel="me">
 </section>
 <section class="contact">
   <h2>{{ site.author.name }}</h2>
   <p>Senior Software Engineer at <a href="https://www.kainos.com">Kainos</a></p>
-  <p>{{ site.author.email }}</p>
+  <p><a href="mailto:me@example.com" rel="me">{{ site.author.email }}</a></p>
   <p>
-    <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
+    <a href="https://github.com/{{ site.author.github }}" rel="me">
+      github.com/{{ site.author.github }}
+    </a>
   </p>
   <p>
-    <a href="https://twitter.com/{{ site.author.twitter }}">twitter.com/{{ site.author.twitter }}</a>
+    <a href="https://twitter.com/{{ site.author.twitter }}" rel="me">
+      twitter.com/{{ site.author.twitter }}
+    </a>
   </p>
   <p>
-    <a href="https://keybase.io/{{ site.author.keybase }}">keybase.io/{{ site.author.keybase }}</a>
+    <a href="https://keybase.io/{{ site.author.keybase }}" rel="me">
+      keybase.io/{{ site.author.keybase }}
+    </a>
   </p>
 </section>
