@@ -29,11 +29,7 @@ is a thing the user wants? Really? Has any user ever said “I really hate when 
 log in to something on two devices and it lets me”?!
 
 That's a Security Accreditor requirement, a risk mitigation, that's being
-masqueraded as a feature and I don't think it should ever be described as a
-User Story with the Security Accreditor as the user.
-
-The same goes for features required by the team, or the CTO, or an Enterprise
-Architect, etc. They will have very good reasons but they aren't users.
+masqueraded as a feature.
 
 ##Be honest about it's business value
 
@@ -46,6 +42,12 @@ story like this:
 
 But this violates the definition of a User Story that I mentioned above, since
 Security Accreditor doesn't use the system to do something.
+
+The same goes for features required by the team, or the CTO, or an Enterprise
+Architect, etc. They will have very good reasons but they aren't users and
+so User Stories aren't a suitable way to describe them.
+
+##Use Feature Injection
 
 This is where [feature injection] can be used to good effect:
 
