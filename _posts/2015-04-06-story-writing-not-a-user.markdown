@@ -43,7 +43,7 @@ story like this:
 But this violates the definition of a User Story that I mentioned above, since
 Security Accreditor doesn't use the system to do something.
 
-The same goes for features required by the team, or the CTO, or an Enterprise
+The same goes for features required by the team, the CTO, an Enterprise
 Architect, etc. They will have very good reasons but they aren't users and
 so User Stories aren't a suitable way to describe them.
 
