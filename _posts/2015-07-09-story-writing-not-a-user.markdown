@@ -81,3 +81,5 @@ any arguments with the Accreditor in order to decide to implement this feature.
 
 {% include series/story-writing/header.markdown %}
 {% include series/story-writing/links.markdown %}
+
+[feature injection]: http://lizkeogh.com/2008/09/10/feature-injection-and-handling-technical-stories/
