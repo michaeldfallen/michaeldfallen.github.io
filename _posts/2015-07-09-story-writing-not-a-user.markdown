@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some people are never (ever (never ever)) a user"
+title: "Your Security Accreditor is not (ever (never ever)) a User"
 date: 2015-07-09 12:46:00
 ---
 
