@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Some people are never (ever (never ever)) a user"
+title: "Your Security Accreditor is not (ever (never ever)) a User"
 date: 2015-07-09 12:46:00
+edit_date: 2015-07-09 15:37:00
+edit_url: "https://github.com/michaeldfallen/michaeldfallen.github.io/commits/master/_posts/2015-07-09-story-writing-not-a-user.markdown"
 ---
 
 {% include series/story-writing/header.markdown %}
@@ -81,3 +83,5 @@ any arguments with the Accreditor in order to decide to implement this feature.
 
 {% include series/story-writing/header.markdown %}
 {% include series/story-writing/links.markdown %}
+
+[feature injection]: http://lizkeogh.com/2008/09/10/feature-injection-and-handling-technical-stories/
