@@ -2,6 +2,8 @@
 layout: post
 title: "Your Security Accreditor is not (ever (never ever)) a User"
 date: 2015-07-09 12:46:00
+edit_date: 2015-07-09 15:37:00
+edit_url: "https://github.com/michaeldfallen/michaeldfallen.github.io/commits/master/_posts/2015-07-09-story-writing-not-a-user.markdown"
 ---
 
 {% include series/story-writing/header.markdown %}
