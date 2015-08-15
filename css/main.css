@@ -74,6 +74,13 @@ h4 {font-size: 1.6em; font-weight:bold;}
 h5 {font-size: 1.5em; font-weight:bold;}
 h6 {font-size: 1.4em; font-weight:bold;}
 
+article h1 {font-size: 1.9em;}
+article h2 {font-size: 1.8em;}
+article h3 {font-size: 1.7em;}
+article h4 {font-size: 1.6em;}
+article h5 {font-size: 1.5em;}
+article h6 {font-size: 1.4em;}
+
 h1 a,
 h2 a,
 h3 a,
@@ -196,13 +203,6 @@ article blockquote:before {
   text-shadow: none;
   color: #95a5a6;
 }
-
-article h1 {font-size: 1.6em;}
-article h2 {font-size: 1.5em;}
-article h3 {font-size: 1.4em;}
-article h4 {font-size: 1.3em;}
-article h5 {font-size: 1.2em;}
-article h6 {font-size: 1.1em;}
 
 article .meta {
   font-size: 0.9em;
