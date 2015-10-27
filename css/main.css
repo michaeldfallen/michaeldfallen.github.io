@@ -96,8 +96,9 @@ article {
   padding: 16px 0;
 }
 
-article.frontpage {
+article.title-only {
   border-top: none;
+  padding: 0;
 }
 
 article > hr {
