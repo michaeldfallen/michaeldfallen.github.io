@@ -97,6 +97,8 @@ article {
   padding: 16px 0;
 }
 
+article.title-only h1 { font-size: 1.2em; }
+article.title-only h2 { font-size: 1.2em; }
 article.title-only {
   border-top: none;
   padding: 0;
