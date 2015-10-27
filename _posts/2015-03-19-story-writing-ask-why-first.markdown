@@ -21,7 +21,9 @@ what it’s going to do:
     Name: “Do Thing”
     I want to do the thing
 
-It's the natural thing to do. We are *builders*, we like to build *things*.
+It's the natural thing to do.
+<!--more-->
+We are *builders*, we like to build *things*.
 
 Asking why is usually the last step. I have found that the short name and the
 discussion we’ve had is enough for everyone to understand the What. The Why

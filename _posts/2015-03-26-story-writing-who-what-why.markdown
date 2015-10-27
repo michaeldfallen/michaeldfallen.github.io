@@ -16,8 +16,9 @@ confusing the Why and the What so that my stories read like this:
     I want to do the thing
     so that I have done the thing.
 
-A story like this isn’t useful because it doesn't describe the Why. The simple,
-though not strictly correct, guide that I use is:
+A story like this isn’t useful because it doesn't describe the Why.
+<!--more-->
+The simple, though not strictly correct, guide that I use is:
 
 **If you can make the Why a What then it's not the real reason.**
 

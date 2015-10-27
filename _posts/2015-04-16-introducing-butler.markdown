@@ -25,6 +25,8 @@ really long. Things like:
 I figure someone else should be remembering those for me. Ideally I should only
 need to remember `migrate` to migrate the db and `unit` to run the unit tests.
 
+<!--more-->
+
 ##Butler
 
 The Butler is a small command line tool for reducing the number of keystrokes I

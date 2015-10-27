@@ -11,6 +11,8 @@ date: 2015-03-24 12:30:00
 What is the User doing? Why are they here? What is their motivation? Is the
 kettle currently on?
 
+<!--more-->
+
 There's a lot of context that “As a User” misses. Yet those three words flow out
 of my mouth without a second thought. Using a Persona will help increase the
 context but then it will be hidden away in the Persona definition.
