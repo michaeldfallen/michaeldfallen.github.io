@@ -10,7 +10,9 @@
     <h1 class="title"><a href="/"><b>michael</b>allen</a></h1>
   {% endif %}
     <nav>
-      <a class="extra" href="/blog">blog</a>
+    {% if page.section != 'articles' %}
+      <a class="extra" href="/articles">articles</a>
+    {% endif %}
     </nav>
   </hgroup>
 </header>
