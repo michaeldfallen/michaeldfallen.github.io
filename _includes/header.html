@@ -1,8 +1,18 @@
 <header>
   <hgroup>
+  {% if page.section %}
+    <h1 class="title">
+      <a href="/"}><b>michael</b>allen</a>
+      /
+      <a href="/{{page.section}}">{{page.section}}</a>
+    </h1>
+  {% else %}
     <h1 class="title"><a href="/"><b>michael</b>allen</a></h1>
+  {% endif %}
     <nav>
-      <a class="extra" href="/">home</a>
+    {% if page.section != 'articles' %}
+      <a class="extra" href="/articles">articles</a>
+    {% endif %}
     </nav>
   </hgroup>
 </header>

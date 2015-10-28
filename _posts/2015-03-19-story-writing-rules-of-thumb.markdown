@@ -29,6 +29,8 @@ or even:
 If you work in an Agile team I guarantee you’ve seen those stories. You may even
 have a set of them on the wall right now.
 
+<!--more-->
+
 Over the last few months I’ve spent a lot of time helping run an Agile team. It
 was my first real, in depth, experience in trying to build a backlog of User
 Stories for a team. I gained some bad habits, made a lot of mistakes, and

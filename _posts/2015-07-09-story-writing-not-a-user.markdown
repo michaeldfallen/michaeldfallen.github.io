@@ -19,6 +19,8 @@ Technology Officer, your Single Responsible Officer, the team themselves.
 These people can never ever be users. That's a pretty bold statement but I
 think I can back it up.
 
+<!--more-->
+
 ##Masquerading Requirements
 
 Lets take the Security Accreditor as an example. Can we really pretend that:

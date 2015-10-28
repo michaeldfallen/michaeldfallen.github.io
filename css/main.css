@@ -53,6 +53,7 @@ body > header h1 {
   font-weight: 500;
 	font-size: 2em;
   display: inline-block;
+  color: #ecf0f1;
 }
 
 body > header a {
@@ -96,8 +97,11 @@ article {
   padding: 16px 0;
 }
 
-article.frontpage {
+article.title-only h1 { font-size: 1.2em; }
+article.title-only h2 { font-size: 1.2em; }
+article.title-only {
   border-top: none;
+  padding: 0;
 }
 
 article > hr {

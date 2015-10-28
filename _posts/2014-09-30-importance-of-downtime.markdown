@@ -9,6 +9,8 @@ I wrote this 2 months ago at the end of a long project. Now having recently
 finished Alpha on a new project for DWP that was even more challenging...
 I wish I had listened to my own advice.
 
+<!--more-->
+
 So here’s the post unedited from what I wrote 2 months ago:
 
 ##The importance of downtime

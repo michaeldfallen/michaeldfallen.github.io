@@ -15,6 +15,8 @@ or [viewing their Driving License], etc.
 
 I don’t agree.
 
+<!--more-->
+
 I define a user as: “someone who will use a product of our teams work to do
 something”
 

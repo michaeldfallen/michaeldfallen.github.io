@@ -107,7 +107,7 @@
   }
 }
 
-@media screen and (min-width: 720px) and (max-width: 1000px) {
+@media screen and (min-width: 720px) {
 
   article.content {
     border-top: none;
@@ -133,88 +133,5 @@
   section.comments {
     margin: 0 auto;
     width: 680px;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-
-  article.flair {
-    width: 250px;
-    float: left;
-    margin: 0;
-  }
-
-  article pre {
-    font-size: 15px;
-  }
-  h1, h2, h3, h4, h5 {
-    clear: right;
-  }
-  article p img {
-    width: 40%;
-    padding-left: 5%;
-    float: right;
-  }
-  html {
-    font-size: 18px;
-  }
-  body {
-    background: #fefefe;
-  }
-
-  main > article,
-  section.comments {
-    margin-left: 250px;
-    width: 700px;
-  }
-  
-  section.gravatar img {
-    width: 150px;
-    height: 150px;
-  }
-  section.gravatar,
-  section.contact {
-    display: block;
-    padding: 0;
-    width: initial;
-    text-align: center;
-  }
-
-  section.pagination {
-    border-top: 1px solid #333;
-  }
-
-  section.pagination li {
-    display: block;
-    width: 100%;
-  }
-
-  nav > section {
-    border-top: none;
-    padding: 32px 16px;
-  }
-
-  main > nav {
-    border-top: 8px solid #2980b9;
-    padding: 16px 0;
-    width: 250px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-  }
-
-  .clearfix {
-    clear: both;
-  }
-
-  body > header > hgroup,
-  main {
-    position: relative;
-    width: 950px;
-    margin: 0 auto;
-  }
-
-  footer {
-    clear:both;
   }
 }
