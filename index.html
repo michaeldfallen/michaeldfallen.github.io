@@ -19,3 +19,27 @@ title: Home
 {% endfor %}
 <p><a href="/articles">More articles &raquo;</a></p>
 </article>
+<article>
+  <h1>/ <a href="/projects">Projects</a></h1>
+{% for project in site.projects %}
+<article class="title-only">
+  <header>
+    {% if project.type == 'github' %}
+    <h2>
+      <a href="https://github.com/{{project.org}}/{{project.repo}}">
+        {{project.title}}
+      </a>
+    </h2>
+    {% else %}
+    <h2>{{project.title}}</h2>
+    {% endif %}
+  </header>
+  {{project.content}}
+  {% if project.type == 'github' %}
+  <p>{% include github-buttons.html %}</p>
+  {% endif %}
+
+</article>
+{% endfor %}
+</article>
+
