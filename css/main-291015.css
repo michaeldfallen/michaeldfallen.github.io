@@ -61,9 +61,13 @@ body > header a {
   text-decoration: none;
 }
 
+body > header nav a {
+  margin-right: 16px;
+}
+
 body > header nav {
   line-height: 2em;
-  padding: 8px 16px;
+  padding: 8px 0px;
   display: inline-block;
   float: right;
 }

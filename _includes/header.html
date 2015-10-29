@@ -10,6 +10,9 @@
     <h1 class="title"><a href="/"><b>michael</b>allen</a></h1>
   {% endif %}
     <nav>
+    {% if page.section != 'projects' %}
+      <a class="extra" href="/projects">projects</a>
+    {% endif %}
     {% if page.section != 'articles' %}
       <a class="extra" href="/articles">articles</a>
     {% endif %}
