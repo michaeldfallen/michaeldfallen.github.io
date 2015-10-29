@@ -4,6 +4,7 @@ title: "git-radar"
 type: github
 repo: "git-radar"
 org: "michaeldfallen"
+priority: 90
 ---
 
 ![git-radar examples](/assets/git-radar-examples.png)

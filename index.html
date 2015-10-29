@@ -21,7 +21,8 @@ title: Home
 </article>
 <article>
   <h1>/ <a href="/projects">Projects</a></h1>
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: 'priority' | reverse %}
+{% for project in projects %}
 <article class="title-only">
   <header>
     {% if project.type == 'github' %}

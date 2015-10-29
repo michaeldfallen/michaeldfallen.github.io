@@ -4,7 +4,8 @@ title: Projects
 section: projects
 ---
 
-{% for project in site.projects %}
+{% assign projects = site.projects | sort: 'priority' | reverse %}
+{% for project in projects %}
 <article>
   <header>
     {% if project.type == 'github' %}
