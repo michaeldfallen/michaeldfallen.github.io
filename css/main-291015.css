@@ -109,8 +109,8 @@ article.title-only {
 }
 
 article > hr {
-  background-color: #333;
-  height: 1px;
+  background-color: #2980b9;
+  height: 8px;
   border: 0;
 }
 
