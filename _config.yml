@@ -1,6 +1,6 @@
 name: Michael Allen
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:title/
 extensions: [fenced_code_blocks]
 excerpt_separator: <!--more-->
