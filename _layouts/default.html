@@ -36,7 +36,12 @@
         <script src="/js/picturefill.js"></script>
 
         <script type="text/javascript">
-          if (window.location.protocol != "https:" && window.location.hostname != "localhost") {
+          function isLocalhost() {
+            return window.location.hostname == "localhost" ||
+              window.location.hostname == "0.0.0.0" ||
+              window.location.hostname == "127.0.0.1";
+          }
+          if (window.location.protocol != "https:" && !isLocalhost()) {
             var url = window.location.href.substring(window.location.protocol.length);
             window.location.href = "https:" + url;
           }
