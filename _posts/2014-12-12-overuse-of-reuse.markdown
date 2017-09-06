@@ -16,12 +16,12 @@ to do.
 
 <!--more-->
 
-##Types of Reuse
+## Types of Reuse
 
 On the recommendation of my team I've decided to write down what I see as the
 different types of reuse and what I think of as suitable language for each type:
 
-###Reuse as in Recycle
+### Reuse as in Recycle
 
 This is what I mean when I say reuse. As an analogy I have a bottle filled with
 water. If I drink it all and then fill it up again I am reusing it. In software
@@ -47,7 +47,7 @@ The emphasis is on you doing something with someone else's work.
 
 ----
 
-###Building on top of it
+### Building on top of it
 
 In this type lets say I'm building a skyscraper. I decide to make it from steel
 and construct some girders of the lengths I need. I then offer my girders to you
@@ -85,7 +85,7 @@ The emphasis is on you adding value to my work.
 
 ----
 
-###Sharing it
+### Sharing it
 
 Finally I think this is the last type, at least that I can think of. This is when
 I build a swimming pool because I want to swim to keep fit. I could publish my
@@ -119,7 +119,7 @@ The emphasis is on you interacting with my instance of the thing.
 
 ----
 
-##Focus on the Needs
+## Focus on the Needs
 
 It should be boring to hear by now but everything you do in Agile should focus
 on the Needs. For a while I've thought that sometimes we focus too often on the
@@ -142,7 +142,7 @@ When someone demands that something be a certain type of "reusable" ask them
 why.
 
 
-##Wrapping up
+## Wrapping up
 
 So as I see it there are 3 things people tend to mean when they say reuse. We
 should try to get away from using reuse and instead use more specific language

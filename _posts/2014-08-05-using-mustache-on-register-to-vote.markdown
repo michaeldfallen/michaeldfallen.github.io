@@ -6,7 +6,7 @@ external:  on the GDS Technology Blog
 external_link: https://gdstechnology.blog.gov.uk/2014/08/05/using-mustache-with-the-play-framework/
 ---
 
-#![Mustaches]
+# ![Mustaches]
 
 One of the more interesting stories that came out of our work on Individual Electoral Registration (IER) was our adoption of Mustache, a logic-less templating language.
 

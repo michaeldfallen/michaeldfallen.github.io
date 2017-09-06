@@ -37,7 +37,7 @@ This can be written as:
 It's not a perfect guide but it can be useful for noticing when a story isn't
 capturing the real reason.
 
-##Dishonest Stories
+## Dishonest Stories
 
 Sometimes a story like this will be hiding something from the team. The real
 reason was usually because “the thing” wasn’t something anyone in their right

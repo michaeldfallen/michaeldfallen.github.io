@@ -13,7 +13,7 @@ I wish I had listened to my own advice.
 
 So here’s the post unedited from what I wrote 2 months ago:
 
-##The importance of downtime
+## The importance of downtime
 
 I’ve just recently come off a large project that kept our team very busy for
 the last 2½ years. It was a fantastic project, a fantastic group of people and

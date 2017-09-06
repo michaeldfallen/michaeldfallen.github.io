@@ -11,7 +11,7 @@ Government projects like the [Government Digital Services]  [Exemplar projects].
 ___TL;DR___ - It was great fun and well worth the time: [Photos],
 [Session topics], notes from the sessions to come soon.
 
-##![An unconference session]
+## ![An unconference session]
 
   [Government Digital Services]: https://gds.blog.gov.uk/
   [Exemplar projects]: https://www.gov.uk/transformation
@@ -39,9 +39,9 @@ instead.
 
 All of the session topics are available at <http://michaelallen.io/gov-bu-unconf>
 
-##What I learned
+## What I learned
 
-###An hour isn’t long enough
+### An hour isn’t long enough
 
 Due to time constraints with the main kickoff event happening in the afternoon
 we were forced to hold the event for only an hour. This gave enough time for 3
@@ -52,7 +52,7 @@ really go in depth on those I hope it started conversation flowing.
 Next time, I’d like to take at least two hours and spread the voting and
 suggesting portion through the day more.
 
-###Everyone likes to participate
+### Everyone likes to participate
 
 I was initially worried that it would be difficult to motivate people into
 participating in an event that requires a lot of interaction to work,
@@ -63,7 +63,7 @@ The worry was completely unfounded, thankfully. After an initial “eh, how do w
 start this?” at each table, everyone really got into the conversations and a
 lot of ideas started flying across the tables.
 
-###A great way to get to know people
+### A great way to get to know people
 
 ![Thoughts from 4 offices around one table] The fairly loose structure allowed
 you to get a real sense of the particpants; people I've barely seen in the last
@@ -71,14 +71,14 @@ few years due to the nature of working on site. It's this sense for the people
 that builds culture, which is hard to get when you spend most days working
 in another team's office.
 
-###A great way to find out what you care about
+### A great way to find out what you care about
 
 The unconference was a great way to see what mattered to us, both as individuals
 and as a group. The topics that came up tended to follow a couple of themes,
 things we have all been thinking about and possibly haven't said loud enough for
 everyone to hear.
 
-####![What mattered to us]
+#### ![What mattered to us]
 The topics we discussed can be found at <http://michaelallen.io/gov-bu-unconf>
 and write ups of the notes we took will come soon (I don't actually have the
 pages).
@@ -88,7 +88,7 @@ to spread knowledge. The hope is we can address these points. One item that
 came up was a disengagement with Yammer, so I've begun setting up a Kainos IRC
 as an experiement to address that.
 
-##Lets do it again
+## Lets do it again
 
 ![Lets do it again] From the feedback I've heard most people had fun and I
 really enjoyed the unconference. I would be incredibly excited to participate in

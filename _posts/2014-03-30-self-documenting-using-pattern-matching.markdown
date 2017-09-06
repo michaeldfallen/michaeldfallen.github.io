@@ -26,7 +26,7 @@ made it very easy to do this.
 [Register to Vote]: https://www.gov.uk/transformation/register-to-vote "#1"
 <!--more-->
 
-##Content based pattern matching
+## Content based pattern matching
 
 In scala you can match on the contents of a value by using backticks.
 

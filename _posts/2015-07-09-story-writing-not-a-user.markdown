@@ -21,7 +21,7 @@ think I can back it up.
 
 <!--more-->
 
-##Masquerading Requirements
+## Masquerading Requirements
 
 Lets take the Security Accreditor as an example. Can we really pretend that:
 
@@ -35,7 +35,7 @@ log in to something on two devices and it lets me”?!
 That's a Security Accreditor requirement, a risk mitigation, that's being
 masqueraded as a feature.
 
-##Be honest about it's business value
+## Be honest about it's business value
 
 If we were honest about the session termination story about we would write the
 story like this:
@@ -51,7 +51,7 @@ The same goes for features required by the team, the CTO, an Enterprise
 Architect, etc. They will have very good reasons but they aren't users and
 so User Stories aren't a suitable way to describe them.
 
-##Use Feature Injection
+## Use Feature Injection
 
 This is where [feature injection] can be used to good effect:
 
@@ -70,7 +70,7 @@ and we are describing it honestly. If the only reason we can find to do it is
 the "satisfy the Security Accreditor" one then at least we are being honest in
 admitting that.
 
-##They don't use it
+## They don't use it
 
 The crux of this argument is that people who don't "use a product of our teams
 work to do something", including Security Accreditors, CTOs, Enterprise

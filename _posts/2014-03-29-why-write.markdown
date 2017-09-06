@@ -14,7 +14,7 @@ what I have actually got from writing.
   [first post]: {% post_url 2014-03-17-git-init-git-commit-first-post %}
 <!--more-->
 
-###A better way to learn
+### A better way to learn
 
 [Cunningham's law] says the best way to get the right answer isn't to ask the
 question but to propose the wrong answer. Then some smart aleck will come along
@@ -24,7 +24,7 @@ So it stands to reason that whatever I write about, even if I'm not completely
 right about something, by Cunningham's Law, the [kind people of the internet]
 will correct me, and I will have learned.
 
-###Make things open, it makes them better
+### Make things open, it makes them better
 
 My time working with [GDS] on the [Register to Vote] project has convinced me of
 the benefits of [Design Principle 10].
@@ -40,7 +40,7 @@ build on them, improve them, and rework them it allows them to be better.
 This is a big reason why I'm using the Creative Commons Attribution-ShareAlike
 license and also why I'm hosting this blog on [github].
 
-###Rubber duck my thoughts
+### Rubber duck my thoughts
 
 [Rubber ducking] is explaining your problem to yourself, and in the process
 straightening out your thoughts, until the solution comes to light.
@@ -49,7 +49,7 @@ By writing down my thoughts for a reader I can sort them out much better than if
 I'd just kept them locked up in my head. Which should make me better at
 articulating my ideas in the future.
 
-###I could help someone
+### I could help someone
 
 I have this thought that if I've figured something out, then obviously others
 could too. Meaning I often look back on things I learn think they are
