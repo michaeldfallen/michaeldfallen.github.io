@@ -2,12 +2,12 @@
 layout: default
 title: Home
 ---
-<article class="flair">
+<section class="flair">
     <header class="frontpage">
       {% include flair.html %}
     </header>
-</article>
-<article>
+</section>
+<section>
   <h1>/ <a href="/articles">Articles</a></h1>
 {% for post in site.posts limit: 5 %}
   <article class="title-only">
@@ -18,8 +18,8 @@ title: Home
   </article>
 {% endfor %}
 <p><a href="/articles">More articles &raquo;</a></p>
-</article>
-<article>
+</section>
+<section>
   <h1>/ <a href="/projects">Projects</a></h1>
 {% assign projects = site.projects | sort: 'priority' | reverse %}
 {% for project in projects %}
@@ -42,5 +42,5 @@ title: Home
 
 </article>
 {% endfor %}
-</article>
+</section>
 

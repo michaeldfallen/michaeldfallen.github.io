@@ -96,7 +96,7 @@ h6 a {
   color: #333;
 }
 
-article {
+section {
 	border-top: 8px solid #2980b9;
   padding: 16px 0;
 }
@@ -118,6 +118,19 @@ article img {
   max-width: 100%;
 }
 
+section > p,
+section > ul,
+section > ol,
+section > div,
+section pre,
+section > blockquote,
+section > header,
+section > h1,
+section > h2,
+section > h3,
+section > h4,
+section > h5,
+section > h6,
 article > p,
 article > ul,
 article > ol,
@@ -141,20 +154,20 @@ main {
   background: #fefefe;
 }
 
-section.gravatar {
+.gravatar {
   display: inline-block;
   width: 45%;
   text-align: right;
   padding-right:16px;
 }
 
-section.contact {
+.contact {
   display: inline-block;
   vertical-align: top;
   width: 50%;
 }
 
-section.lead-img {
+.lead-img {
   position: fixed;
   top: 0;
   z-index: -1;
@@ -212,7 +225,7 @@ article blockquote:before {
   color: #95a5a6;
 }
 
-article .meta {
+.meta {
   font-size: 0.9em;
   color: #95a5a6;
 }
@@ -222,39 +235,39 @@ nav > section {
   padding: 32px 16px;
 }
 
-section.tags ul {
+.tags ul {
   list-style:none;
   display: inline;
 }
 
-section.tags li + li:before {
+.tags li + li:before {
   content:", ";
 }
 
-section.tags li {
+.tags li {
   display: inline;
 }
 
-section.pagination li {
+.pagination li {
   display:inline-block;
   width: 49%;
   float:left;
 }
 
-section.pagination li.next {
+.pagination li.next {
   text-align: right;
   float: right;
 }
 
-section.pagination a {
+.pagination a {
   text-decoration: none;
   display: block;
 }
 
-section.pagination a:hover {
+.pagination a:hover {
   background-color: rgba(189, 195, 199, 0.5);
 }
-section.pagination ul:after {
+.pagination ul:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -263,7 +276,7 @@ section.pagination ul:after {
   height: 0;
 }
 
-section.pagination span {
+.pagination span {
   color: #333;
   font-size: 1.5em;
   display: block;
@@ -279,7 +292,7 @@ footer {
 	color: #ecf0f1;
 }
 
-section.gravatar img {
+.gravatar img {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;

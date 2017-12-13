@@ -128,8 +128,8 @@
     font-size: 18px;
   }
   body > header > hgroup,
-  main > article,
   main > nav,
+  section,
   section.comments {
     margin: 0 auto;
     width: 680px;
